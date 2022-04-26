@@ -113,7 +113,7 @@ sudo systemctl status apache2
 - mapred --daemon stop historyserver
 
 # user생성
-bin/hdfs dfs -mkdir /user
+/usr/sbin/hadoop-3.2.3/bin/hdfs dfs -mkdir /user
 
 # hadoop 파일시스템 확인
 hadoop fs -ls /
