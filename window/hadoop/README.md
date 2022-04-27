@@ -24,7 +24,14 @@
           <value>hdfs://localhost:9000</value>
        
       </property>
- 
+  <property>
+    
+        <name>hadoop.tmp.dir</name>
+    
+        <value>/home/kang/hadoop/hadoop_tmp</value>
+    
+    </property>
+  
    </configuration>
 
 
